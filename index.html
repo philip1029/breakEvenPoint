@@ -25,11 +25,12 @@
         
         <h1>손익분기점 계산기</h1>
         <div class="height">
-            고정 비용: <input id='a' placeholder='ex) 90' onkeyup='win()'> 만 원
-            <br>제작 비용(원가): <input id='b' placeholder='ex) 1' onkeyup='win()'> 만 원
-            <br>이익률: <input id='c' placeholder='ex) 40' onkeyup='win()'> %
+            고정 비용: <input id='a' placeholder='ex) 90' onkeyup='fun()'> 만 원
+            <br>제작 비용(원가): <input id='b' placeholder='ex) 1' onkeyup='fun()'> 만 원
+            <br>이익률: <input id='c' placeholder='ex) 40' onkeyup='fun()'> %
             <br>정가: <span id='result1'></span>
             <br><b>손익분기점: </b><span id='result2'></span>
+            <br><b>손익분기점을 넘기 위한 판매량: </b><span id='result3'></span>
         </div>
 <hr>
         <br>
@@ -39,7 +40,11 @@
 
             <h3 style="display: inline;">판매 수익 함수&nbsp;</h3><small>((정가) = (제작 비용) + (이익))</small>
             <p>𝑦 = (정가) ⋅ 𝑥</p>
-
+<hr>
+    <br>
+        <h1>손익분기점 계산법</h1>
+            <p style="font-size: 110%;">생산 비용 함수와 판매 수익 함수를 연립하여 나온 𝑥값: 손익분기점을 넘기 위한 판매량</p>
+            <p style="font-size: 110%;">생산 비용 함수와 판매 수익 함수를 연립하여 나온 𝑦값: 손익분기점</p>
             
     </section>
     <br>
