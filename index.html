@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>손익분기점 계산기</title>
+    <link rel="icon" href="graph.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="breakEvenPoint.css" rel="stylesheet" type="text/css">
+    <style type="text/css"></style>
+</head>
+
+<body>
+    <script src="breakEvenPoint.js"></script>
+
+    <header>
+        <div class="inner">
+                <img src="graph.png" width="80" height="80">
+                <h1>손익분기점 계산기</h1>
+        </div>
+    </header>
+<hr>
+<br>
+    <section>
+        
+        <h1>손익분기점 계산기</h1>
+        <div class="height">
+            고정 비용: <input id='a' placeholder='ex) 90' onkeyup='win()'> 만 원
+            <br>제작 비용(원가): <input id='b' placeholder='ex) 1' onkeyup='win()'> 만 원
+            <br>이익률: <input id='c' placeholder='ex) 40' onkeyup='win()'> %
+            <br>정가: <span id='result1'></span>
+            <br><b>손익분기점: </b><span id='result2'></span>
+        </div>
+<hr>
+        <br>
+        <h1 style="display: inline;">이와 관련된 일차함수&nbsp;</h1><small>(𝑥 = (수량))</small>
+            <h3>생산 비용 함수</h3>
+            <p>𝑦 = (제작 비용(원가)) ⋅ 𝑥 + (고정 비용)</p>
+
+            <h3 style="display: inline;">판매 수익 함수&nbsp;</h3><small>((정가) = (제작 비용) + (이익))</small>
+            <p>𝑦 = (정가) ⋅ 𝑥</p>
+
+            
+    </section>
+    <br>
+<hr>
+    <footer>
+    <p>
+    <a href="https://open.kakao.com/me/philip1029">🙋 사이트 문의는 여기로 💻</a>
+    <br>made by 이필립
+    <br>행동으로서의 봉사 숙제로 만든 사이트랍니다 ><
+    </p>
+    </footer>
+</body>
+</html>
